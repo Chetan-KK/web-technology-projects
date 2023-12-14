@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employees.xsd">
+    <employee id="1">
+        <name>John Doe</name>
+        <position>Software Engineer</position>
+        <department>Engineering</department>
+        <salary>80000</salary>
+    </employee>
+    <employee id="2">
+        <name>Jane Smith</name>
+        <position>Marketing Specialist</position>
+        <department>Marketing</department>
+        <salary>60000</salary>
+    </employee>
+</employees>
