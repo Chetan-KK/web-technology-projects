@@ -84,3 +84,19 @@ footer {
   color: black;
   margin-top: 2rem;
 }
+input,
+textarea {
+  width: 80vw;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  transition: 200ms;
+}
+input:hover,
+textarea:hover {
+  box-shadow: 0 0 10px var(--primary-color);
+}
+textarea {
+  height: 30vh;
+}
