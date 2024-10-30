@@ -6,6 +6,16 @@ function clearOutput() {
     document.getElementById('output').value = '';
 }
 
+//adding a delete button 
+function deleteLastDigit() {
+    const display = document.getElementById('output');
+    if (display && display.value) {
+        display.value = display.value.slice(0, -1);
+    }
+}
+
+
+
 function calculateResult() {
     try {
         const result = eval(document.getElementById('output').value);
