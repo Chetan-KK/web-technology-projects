@@ -17,7 +17,13 @@
   align-items: center;
 }
 body {
-  background-color: #242424;
+  background-image: url(../imgs/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  background-attachment: fixed;
+  background-position: center;
+
   color: var(--text-c);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -56,6 +62,14 @@ a:hover {
   font-weight: 800;
   font-size: 3rem;
 }
+.main-heading .description{
+      min-height: 318px;
+     text-align: justify;
+     margin-right: 30rem;
+     margin-top: 1rem;
+     font-weight: 400;
+     font-size: 1rem;
+}
 button {
   padding: 0.5rem 2rem;
   background-color: var(--primary-color);
@@ -83,6 +97,8 @@ footer {
   padding: 1rem;
   color: black;
   margin-top: 2rem;
+ 
+  
 }
 input,
 textarea {
